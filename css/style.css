@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+}
+
+header{
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+}
+
+.video{
+    background-color: rgb(19, 122, 126);
+    margin: 15px;
+    font-family: 'Assistant', sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+}
